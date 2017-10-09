@@ -8,9 +8,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <script src="js/script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Tutorial de Login MVC con Java EE 7</title>
   </head>
   <body>
-  FRANK
+    <h1>Tutorial de Login MVC con Java EE 7</h1>
+
+    <div>
+      <form action="#" method="post">
+        <p><input type="text" name="user" id="user"></p>
+        <p><input type="password" name="pass" id="pass"></p>
+        <p><input type="submit" name="Entrar" id="Entrar" value="Entrar"></p>
+      </form>
+
+      <input type="button" value="Saludo" onclick="Saludo()">
+
+    </div>
   </body>
 </html>
